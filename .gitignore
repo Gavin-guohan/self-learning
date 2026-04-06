@@ -1,0 +1,38 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# ROS2
+code/ros2_ws/build/
+code/ros2_ws/install/
+code/ros2_ws/log/
+
+# TensorRT
+*.engine
+*.trt
+*.onnx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files
+*.mp4
+*.avi
+*.zip
+*.tar.gz
