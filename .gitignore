@@ -1,31 +1,51 @@
-# .gitignore
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Gradle
+.gradle/
+build/
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
 
 # Python
 __pycache__/
 *.py[cod]
 *.egg-info/
 dist/
-build/
 *.egg
 .venv/
 venv/
 env/
 
-# ROS2
-code/ros2_ws/build/
-code/ros2_ws/install/
-code/ros2_ws/log/
+# Node (前端)
+node_modules/
+dist/
 
-# TensorRT
-*.engine
-*.trt
-*.onnx
+# Docker
+*.log
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
+# Redis
+dump.rdb
 
 # OS
 .DS_Store
@@ -36,3 +56,7 @@ Thumbs.db
 *.avi
 *.zip
 *.tar.gz
+
+# Env files
+.env
+.env.local
